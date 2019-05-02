@@ -66,6 +66,7 @@ h1 {
 
 .site-title {
     display: inline-block;
+    text-decoration: none;
     vertical-align: middle;
 }
 
@@ -104,6 +105,10 @@ a, a:visited {
     padding-top: 3rem;
 }
 
+.section:first-of-type {
+    padding-top: 6rem;
+}
+
 .section--full-height {
     min-height: 100vh;
 }
@@ -112,4 +117,9 @@ a, a:visited {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.section iframe {
+    display: block;
+    margin: 1rem auto !important;
 }
