@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Stonecross";
+    src: url("assets/fonts/stonecross.woff2") format("woff2");
+}
+
+h1, h2, h3,
+.site-title {
+    text-transform: uppercase;
+    font-family: "Stonecross", serif;
+}
+
+.site-title {
+    display: inline;
+}
+
+.site-navigation {
+    display: inline;
+}
+
+.site-navigation .list {
+    display: inline;
+}
+
+.list--inline li {
+    display: inline;
+    list-style-type: none;
+}
