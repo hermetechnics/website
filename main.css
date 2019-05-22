@@ -82,6 +82,10 @@ p:last-of-type:after {
     text-align: center;
 }
 
+li p:last-of-type:after {
+    content: none;
+}
+
 .list--inline li {
     display: inline;
     list-style-type: none;
