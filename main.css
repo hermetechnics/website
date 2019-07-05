@@ -163,6 +163,14 @@ a, a:visited {
     max-width: 100%;
 }
 
+.figure--single-image {
+    margin: 0;
+}
+
+.figure--single-image img {
+    width: 100%;
+}
+
 .gallery-grid {
     display: grid;
     width: 100%;
