@@ -58,7 +58,7 @@ h1, h2, h3,
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     line-height: 1.25;
     margin-top: 0;
     text-align: center;
@@ -114,6 +114,13 @@ li p:last-of-type:after {
 
 .site-navigation .list {
     display: inline;
+    padding-left: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .site-navigation .list {
+        padding-left: 2rem;
+    }
 }
 
 a, a:visited {
