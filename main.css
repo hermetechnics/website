@@ -167,7 +167,8 @@ a, a:visited {
 .section iframe {
     display: block;
     margin: 1rem auto !important;
-    max-width: 100%;
+    max-width: 100% !important;
+    min-width: 0 !important;
 }
 
 .figure--single-image {
