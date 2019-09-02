@@ -191,3 +191,9 @@ a, a:visited {
     grid-column: span 1;
     width: 100%;
 }
+
+footer {
+    font-size: small;
+    padding: 1rem;
+    text-align: right;
+}
