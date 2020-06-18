@@ -51,7 +51,7 @@ header {
     }
 }
 
-h1, h2, h3,
+h1, h2,
 .site-title {
     text-transform: uppercase;
     font-family: "Stonecross", serif;
