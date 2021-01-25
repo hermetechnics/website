@@ -201,3 +201,31 @@ footer {
     padding: 1rem;
     text-align: right;
 }
+
+.half-n-half .half {
+    position: relative;
+}
+
+.half-n-half img {
+    width: 100%;
+}
+
+.half-n-half h2 {
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .half-n-half {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+}
+
+.half-n-half p:last-of-type:after {
+    content: none;
+}
+
+.centered {
+    text-align: center;
+}
