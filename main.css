@@ -229,3 +229,8 @@ footer {
 .centered {
     text-align: center;
 }
+
+hr {
+    opacity: 0;
+    margin-top: 7rem;
+}
